@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav .a {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin-right: 12px;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: rgb(0,149,246);
+}
+
+nav span {
+    margin-right: 12px;
+}
+
+.border-line {
+    border: 0.5px solid gray;
+} 
+
+.main img, .main2 img, .main3 img {
+    display: flex;
+    max-width: 300%;
+    max-height: 100vh;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.main .spcl, .main2 .spcl, .main3 .spcl{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.main h3, .main h4, .main h5, .main2 h1, .main2 h4, .main2 h5, .main3 h1, .main3 h5 { 
+    text-align: center; 
+}
+
+.main h4 span, .main2 h4 span{
+    text-decoration: line-through;
+}
+
+.main2 img {
+    margin-left: 200px;
+    margin-right: 200px;
+}

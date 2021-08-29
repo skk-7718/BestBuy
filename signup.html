@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BestBuy | Signup</title>
+        <link rel="stylesheet" href="/signup.css">
+        <script src="/signup.js"></script>
+    </head>
+    <body>
+        <div class="main">
+
+            <div class="form">
+
+                <img src="/BestBuy-logo.svg" alt="logo" width="140" height="90">
+
+                <form action="/homepage.html" id="form" onsubmit="return validate()">
+                    <div class="name">
+                        <input type="text" id="name" placeholder="Name" autocomplete="off">
+                    </div>
+                    <div class="email">
+                        <input type="text" id="email" placeholder="Enter your email" autocomplete="off">
+                    </div>
+                    <div class="password">
+                        <input type="password" id="password" placeholder="Password">
+                    </div>
+                    <div class="confirm-password">
+                        <input type="password" id="confirm-password" placeholder="Confirm Password">
+                    </div>
+                    <div class="login-btn">
+                        <input type="submit" id="login-btn" value="Sign up">
+                    </div>
+                </form>
+
+                <div class="create-acc">
+                    Already have an account?
+                    <br>
+                    <a href="/index.html">Log in</a>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
